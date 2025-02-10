@@ -18,6 +18,9 @@
       { "Id": 10, "ObjetivoMacroId": 3, "Nombre": "Suministrar a cada BDM", "Descripcion": "Arquitectura de la Solución, Plan de Trabajo Macro, Estructura de Costos para AI-centered .", "Resultado": 0 },
       { "Id": 11, "ObjetivoMacroId": 4, "Nombre": "Global Bank - OCR + AI", "Descripcion": "Global Bank - OCR + AI", "Resultado": 0 },
       { "Id": 12, "ObjetivoMacroId": 4, "Nombre": "Morgan & Morgan - RPA + OCR", "Descripcion": "Morgan & Morgan - RPA + OCR", "Resultado": 0 },
-      { "Id": 13, "ObjetivoMacroId": 3, "Nombre": "Suministrar a cada BDM", "Descripcion": "Arquitectura de la Solución, Plan de Trabajo Macro, Estructura de Costos para Facturación IA.", "Resultado": 0 }
+      { "Id": 13, "ObjetivoMacroId": 3, "Nombre": "Suministrar a cada BDM", "Descripcion": "Arquitectura de la Solución, Plan de Trabajo Macro, Estructura de Costos para Facturación IA.", "Resultado": 0 },
+      { "Id": 14, "ObjetivoMacroId": 2, "Nombre": "Construcción de Demos y/o PoCs a la medida", "Descripcion": "Construcción de Demo y/o PoC de AWS Bedrock (no definida)", "Resultado": 0 }
+
+      
     ]
 }
