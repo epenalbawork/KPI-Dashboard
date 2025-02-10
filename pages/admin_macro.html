@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador KPI Macro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex">
+    <!-- Sidebar -->
+    <!-- Sidebar -->
+    <div id="sidebarContainer"></div>
+    <!-- Contenido Principal -->
+    <main class="flex-1 p-6">
+        <h2 class="text-2xl font-bold">Gestión de KPI Macro</h2>
+        
+        <!-- Botón para abrir el modal -->
+        <button id="btnAgregarMacro" class="mt-6 bg-green-500 text-white px-4 py-2 rounded">➕ Agregar Macro</button>
+
+        <!-- Lista de Objetivos Macro -->
+        <div id="macroTableContainer" class="mt-6">
+            <h3 class="text-lg font-bold">Objetivos Macro</h3>
+            <table class="min-w-full border border-gray-300 text-sm mt-4">
+                <thead class="bg-gray-200">
+                    <tr>
+                        <th class="border p-2">ID</th>
+                        <th class="border p-2">Nombre</th>
+                        <th class="border p-2">Peso</th>
+                        <th class="border p-2">Fecha Desde</th>
+                        <th class="border p-2">Fecha Hasta</th>
+                        <th class="border p-2">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="macroTableBody"></tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- Modal para agregar/editar KPI Macro -->
+    <div id="modalMacro" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center">
+        <div class="bg-white p-6 rounded-lg shadow-lg w-1/3">
+            <h3 class="text-lg font-bold mb-4">Agregar/Editar Objetivo Macro</h3>
+            <form id="macroForm">
+                <input type="hidden" id="macroId">
+                <label class="block">Nombre:</label>
+                <input type="text" id="macroNombre" class="w-full p-2 border rounded mt-2" required>
+                
+                <label class="block mt-4">Peso:</label>
+                <input type="number" id="macroPeso" class="w-full p-2 border rounded mt-2" required>
+
+                <label class="block mt-4">Fecha Desde:</label>
+                <input type="date" id="macroFechaDesde" class="w-full p-2 border rounded mt-2" required>
+                
+                <label class="block mt-4">Fecha Hasta:</label>
+                <input type="date" id="macroFechaHasta" class="w-full p-2 border rounded mt-2" required>
+                
+                <div class="flex justify-end mt-4">
+                    <button type="button" id="btnCerrarMacro" class="bg-gray-500 text-white px-4 py-2 rounded mr-2">Cancelar</button>
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="../js/admin_macro.js"></script>
+    <script src="../js/sidebar.js"></script>
+</body>
+</html>

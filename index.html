@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPI Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-100 flex">
+    <!-- Sidebar -->
+    <div id="sidebarContainer"></div>
+
+    <!-- Contenido Principal -->
+    <main class="flex-1 p-6">
+        <h2 class="text-2xl font-bold">Visión General de KPIs Edwin Peñalba 🖥️ <!-- FontAwesome --></h2>
+        
+        <!-- KPI Cards -->
+        <div class="grid grid-cols-4 gap-6 mt-6" id="kpiContainer">
+            <!-- KPI Cards generados dinámicamente -->
+        </div>
+        
+ 
+        <div id="detailsContainer" class="mt-10 bg-white p-6 rounded-lg shadow-md hidden"></div>
+
+    </main>
+
+    <script src="js/app.js"></script>
+    <script src="../js/sidebar.js"></script>
+
+</body>
+</html>
