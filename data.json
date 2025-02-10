@@ -9,15 +9,15 @@
       { "Id": 1, "ObjetivoMacroId": 1, "Nombre": "Obtener certificación", "Descripcion": "Analista básica de Creatio", "Resultado": 1 },
       { "Id": 2, "ObjetivoMacroId": 1, "Nombre": "Preparación siguiente certificación", "Descripcion": "Desarrollador Advance", "Resultado": 0 },
       { "Id": 3, "ObjetivoMacroId": 1, "Nombre": "Curso", "Descripcion": "AWS Lambdas y API Gateway", "Resultado": 0 },
-      { "Id": 4, "ObjetivoMacroId": 2, "Nombre": "Construcción de Demos y/o PoCs a la medida", "Descripcion": "Descripción del demo", "Resultado": 1 },
-      { "Id": 5, "ObjetivoMacroId": 2, "Nombre": "Construcción de Demos y/o PoCs a la medida", "Descripcion": "Descripción del demo", "Resultado": 1 },
-      { "Id": 6, "ObjetivoMacroId": 2, "Nombre": "Construcción de Demos y/o PoCs a la medida", "Descripcion": "Descripción del demo", "Resultado": 1 },
-      { "Id": 7, "ObjetivoMacroId": 2, "Nombre": "Construcción de Demos y/o PoCs a la medida", "Descripcion": "Descr", "Resultado": 0 },
+      { "Id": 4, "ObjetivoMacroId": 2, "Nombre": "Construcción de Demos y/o PoCs a la medida", "Descripcion": "Caja de ahorro, creación chat bot jelou, flujo creatio", "Resultado": 1 },
+      { "Id": 5, "ObjetivoMacroId": 2, "Nombre": "Construcción de Demos y/o PoCs a la medida", "Descripcion": "Banco Aliado, generación apis, flujo creatio", "Resultado": 1 },
+      { "Id": 6, "ObjetivoMacroId": 2, "Nombre": "Construcción de Demos y/o PoCs a la medida", "Descripcion": "ProPanama, flujo solicitud vacaciones creatio", "Resultado": 1 },
+      { "Id": 7, "ObjetivoMacroId": 2, "Nombre": "Construcción de Demos y/o PoCs a la medida", "Descripcion": "AIG Replica de paz y salvo creatio", "Resultado": 0 },
       { "Id": 8, "ObjetivoMacroId": 2, "Nombre": "Suministrar a Jose Abadi", "Descripcion": "Benchmark, Arquitectura y Estructura de Costos (Tecnología y Hrs Hombre) para Solución RPA as a Service + OCR / AI", "Resultado": 0 },
       { "Id": 9, "ObjetivoMacroId": 2, "Nombre": "Sacar a Producción las APIs de Toledano", "Descripcion": "Notas de Crédito", "Resultado": 0 },
-      { "Id": 10, "ObjetivoMacroId": 3, "Nombre": "Suministrar a cada BDM", "Descripcion": "Arquitectura de la Solución, Plan de Trabajo Macro, Estructura de Costos para las 2 Soluciones que fueron seleccionadas en comité.", "Resultado": 0 },
+      { "Id": 10, "ObjetivoMacroId": 3, "Nombre": "Suministrar a cada BDM", "Descripcion": "Arquitectura de la Solución, Plan de Trabajo Macro, Estructura de Costos para AI-centered .", "Resultado": 0 },
       { "Id": 11, "ObjetivoMacroId": 4, "Nombre": "Global Bank - OCR + AI", "Descripcion": "Global Bank - OCR + AI", "Resultado": 0 },
       { "Id": 12, "ObjetivoMacroId": 4, "Nombre": "Morgan & Morgan - RPA + OCR", "Descripcion": "Morgan & Morgan - RPA + OCR", "Resultado": 0 },
-      { "Id": 13, "ObjetivoMacroId": 3, "Nombre": "Suministrar a cada BDM", "Descripcion": "Arquitectura de la Solución, Plan de Trabajo Macro, Estructura de Costos para las 2 Soluciones que fueron seleccionadas en comité.", "Resultado": 0 }
+      { "Id": 13, "ObjetivoMacroId": 3, "Nombre": "Suministrar a cada BDM", "Descripcion": "Arquitectura de la Solución, Plan de Trabajo Macro, Estructura de Costos para Facturación IA.", "Resultado": 0 }
     ]
 }
