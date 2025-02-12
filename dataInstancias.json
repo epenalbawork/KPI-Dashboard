@@ -1,0 +1,131 @@
+{
+    "Instancias": [
+        {
+            "Motivo": "Vacaciones",
+            "Instancia": "https://160745-crm-bundle.creatio.com",
+            "Extensiones": 1,
+            "Tipo": "trial",
+            "Vencimiento": "2025-02-20 00:00:00",
+            "Usuario": "edwin.penalba@cibernetica.net",
+            "Clave": "Ciber.2024** "
+        },
+        {
+            "Motivo": "Demo AIG",
+            "Instancia": "https://160301-crm-bundle.creatio.com",
+            "Extensiones": 1,
+            "Tipo": "trial",
+            "Vencimiento": "2025-02-20 00:00:00",
+            "Usuario": "abraham.btesh@cibernetica.net",
+            "Clave": "Julio@06@2003"
+        },
+        {
+            "Motivo": "Por definir",
+            "Instancia": "https://159378-crm-bundle.creatio.com",
+            "Extensiones": 4,
+            "Tipo": "trial",
+            "Vencimiento": "2025-02-25 00:00:00",
+            "Usuario": "edwin.penalba@cibernetica.net",
+            "Clave": "Ciber.2024** "
+        },
+        {
+            "Motivo": "Demo Cert",
+            "Instancia": "https://161073-crm-bundle.creatio.com",
+            "Extensiones": 0,
+            "Tipo": "trial",
+            "Vencimiento": "sin conocimiento",
+            "Usuario": "edwin.penalba@cibernetica.net",
+            "Clave": "Ciber.2024** "
+        },
+        {
+            "Motivo": "Prueba landing",
+            "Instancia": "https://161551-crm-bundle.creatio.com",
+            "Extensiones": 0,
+            "Tipo": "trial",
+            "Vencimiento": "2025-02-20 00:00:00",
+            "Usuario": "edwin.penalba@cibernetica.net",
+            "Clave": "Ciber.2024** "
+        },
+        {
+            "Motivo": "Copia caja de ahorros",
+            "Instancia": "https://579301-crm-bundle.creatio.com",
+            "Extensiones": 0,
+            "Tipo": "copia",
+            "Vencimiento": "sin conocimiento",
+            "Usuario": "Supervisor",
+            "Clave": "sd#lkjrNT$poSh^53ij"
+        },
+        {
+            "Motivo": "Copia global (1)",
+            "Instancia": "https://554045-demo.creatio.com/",
+            "Extensiones": 0,
+            "Tipo": "copia",
+            "Vencimiento": "sin conocimiento",
+            "Usuario": "Administrator 1",
+            "Clave": "Administrator 1!"
+        },
+        {
+            "Motivo": "Copia global (2)",
+            "Instancia": "https://560919-demo.creatio.com/",
+            "Extensiones": 0,
+            "Tipo": "copia",
+            "Vencimiento": "sin conocimiento",
+            "Usuario": "Administrator 1",
+            "Clave": "Administrator 1!"
+        },
+        {
+            "Motivo": "Copia AIG",
+            "Instancia": "https://571044-2-demo.creatio.com",
+            "Extensiones": 0,
+            "Tipo": "copia",
+            "Vencimiento": "sin conocimiento",
+            "Usuario": "\u2022\tAlejandro Torres -\nPerfil Ciudadano\no\tUsuario: a.wilson@alphabusiness.com\ncontrase\u00f1a: Alejandro Torres1!\n\u2022\tPerfil: Servidor P\u00fablico de una instituci\u00f3n\no\tUsuario: Juan Blanco\nContrase\u00f1a: Juan Blanco1!\n\u2022\tPerfil: Usuario  aprobador\no\tUsuarios: Cesar Juarez\nContrase\u00f1a: Cesar Juarez1!",
+            "Clave": ""
+        },
+        {
+            "Motivo": "Original AIG",
+            "Instancia": "\u00a0https://571044-demo.creatio.com",
+            "Extensiones": 0,
+            "Tipo": "Original",
+            "Vencimiento": "sin conocimiento",
+            "Usuario": "\u2022\tAlejandro Torres -\nPerfil Ciudadano\no\tUsuario: a.wilson@alphabusiness.com\ncontrase\u00f1a: Alejandro Torres1!\n\u2022\tPerfil: Servidor P\u00fablico de una instituci\u00f3n\no\tUsuario: Juan Blanco\nContrase\u00f1a: Juan Blanco1!\n\u2022\tPerfil: Usuario  aprobador\no\tUsuarios: Cesar Juarez\nContrase\u00f1a: Cesar Juarez1!",
+            "Clave": ""
+        },
+        {
+            "Motivo": "Por definir",
+            "Instancia": "https://dev-toledano.creatio.com/",
+            "Extensiones": "",
+            "Tipo": "Original",
+            "Vencimiento": "sin conocimiento",
+            "Usuario": "Missneyda.Mosqueda",
+            "Clave": "6J9%Xf2PNiXQNq4z"
+        },
+        {
+            "Motivo": "Copia toledano (1)",
+            "Instancia": "https://557150-dev-toledano.creatio.com",
+            "Extensiones": "",
+            "Tipo": "copia",
+            "Vencimiento": "sin conocimiento",
+            "Usuario": "Missneyda.Mosqueda",
+            "Clave": "6J9%Xf2PNiXQNq4z"
+        },
+         
+        {
+            "Motivo": "Original global",
+            "Instancia": "https://156911-crm-bundle.creatio.com/",
+            "Extensiones": "",
+            "Tipo": "Original",
+            "Vencimiento": "sin conocimiento",
+            "Usuario": "Administrator 1",
+            "Clave": "Administrator 1!"
+        },
+        {
+            "Motivo": "Copia toledano (2)",
+            "Instancia": "https://576126-dev-toledano.creatio.com/",
+            "Extensiones": "",
+            "Tipo": "copia",
+            "Vencimiento": "sin conocimiento",
+            "Usuario": "Missneyda.Mosqueda",
+            "Clave": "6J9%Xf2PNiXQNq4z"
+        } 
+    ]
+}

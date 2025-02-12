@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instancias</title>
+    <script src="https://cdn.tailwindcss.com"></script>  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.tailwindcss.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.tailwindcss.min.js"></script>
+
+    <style>
+        /* Estilos más específicos */
+        #instanciasTable {
+            width: 100%; /* Asegura que la tabla ocupe todo el ancho */
+            table-layout: fixed; /* Importante: Fija el ancho de las columnas */
+        }
+        #instanciasTable th, #instanciasTable td {
+            word-wrap: break-word; /* Permite ajustar palabras largas */
+            overflow: hidden; /* Oculta el contenido que se desborda (opcional) */
+            text-overflow: ellipsis; /* Agrega puntos suspensivos (...) si el texto se desborda (opcional) */
+        }
+        #instanciasTable td:nth-child(1) { width: 20%; }
+        #instanciasTable td:nth-child(2) { width: 30%; }
+        #instanciasTable td:nth-child(5) { width: 15%; }
+        /* ... Anchos para las demás columnas ... */
+
+    </style>
+</head>
+<body class="bg-gray-100 flex flex-col md:flex-row">
+    <div id="sidebarContainer"></div>
+    <main class="flex-1 p-6">
+        <h1 class="text-2xl font-bold mb-4">Lista de Instancias</h1>
+        <div class="w-full bg-white p-6 rounded-lg shadow-md">
+            <table id="instanciasTable" class="min-w-full border border-gray-300 text-sm stripe hover" style="width: 100%;"">
+                <thead class="bg-gray-200">
+                    <tr>
+                        <th class="border p-2">Motivo</th>
+                        <th class="border p-2">Instancia</th>
+                        <th class="border p-2">Extensiones</th>
+                        <th class="border p-2">Tipo</th>
+                        <th class="border p-2">Vencimiento</th>
+                        <th class="border p-2">Usuario</th>
+                        <th class="border p-2">Clave</th>
+                        <th class="border p-2">Alerta</th>
+                    </tr>
+                </thead>
+                <tbody id="instanciasTableBody" class="m-2"></tbody>
+            </table>
+        </div>
+    </main>
+    <script src="../js/instancias.js"></script>
+    <script src="../js/sidebar.js"></script>
+</body>
+</html>

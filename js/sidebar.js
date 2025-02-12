@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Agregar funcionalidad de colapso del menú
             const adminMenu = document.getElementById("adminMenu");
             const subMenu = document.getElementById("subAdminMenu");
+    
 
             adminMenu.addEventListener("click", () => {
                 subMenu.classList.toggle("hidden");
